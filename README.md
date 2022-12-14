@@ -16,3 +16,5 @@ Or install it yourself as:
     $ gem install tradingphysics
 
 ## Usage
+
+require 'tradingphysics'
