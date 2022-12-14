@@ -10,3 +10,5 @@ Add this line to your application's Gemfile:
 And then execute:
 
     $ bundle
+
+Or install it yourself as:
