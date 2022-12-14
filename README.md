@@ -20,3 +20,5 @@ Or install it yourself as:
 require 'tradingphysics'
 
  # Get dates where we have data
+t=Tradingphysics::TradingPhysics.new("YOUR TRADING PHYSICS USERNAME","TRADINGPHYSICS HASH")
+dates=t.getDates() 
