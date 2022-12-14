@@ -18,3 +18,5 @@ Or install it yourself as:
 ## Usage
 
 require 'tradingphysics'
+
+ # Get dates where we have data
