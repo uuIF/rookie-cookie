@@ -30,3 +30,4 @@ d=t.getData('OHLCV','CSV','20120611',"QQQ")
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Added some feature'`)
