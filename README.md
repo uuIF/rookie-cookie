@@ -27,3 +27,5 @@ dates=t.getDates()
 d=t.getData('OHLCV','CSV','20120611',"QQQ") 
 
 ## Contributing
+
+1. Fork it
