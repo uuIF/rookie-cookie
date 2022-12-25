@@ -29,3 +29,4 @@ d=t.getData('OHLCV','CSV','20120611',"QQQ")
 ## Contributing
 
 1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
