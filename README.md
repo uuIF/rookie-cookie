@@ -24,3 +24,4 @@ t=Tradingphysics::TradingPhysics.new("YOUR TRADING PHYSICS USERNAME","TRADINGPHY
 dates=t.getDates() 
 
  # Get OHLCV in CSV format for 2012-06-11 for symbol QQQQ
+d=t.getData('OHLCV','CSV','20120611',"QQQ") 
