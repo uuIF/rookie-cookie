@@ -16,3 +16,4 @@ module Tradingphysics
       return(Net::HTTP.get(URI.parse(url)));  
     end
     # Get an array of date strings, where tradingphysics has data
+    def getDates()
