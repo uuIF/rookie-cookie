@@ -12,3 +12,4 @@ module Tradingphysics
     end 
     # Get the ticket for authenticating the given query
     def getTicket(query) 
+      url="http://api.tradingphysics.com/getticket?C=#{@customer_number}&P=#{@hash}?#{query}"
