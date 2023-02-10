@@ -11,3 +11,4 @@ module Tradingphysics
       @hash=hash
     end 
     # Get the ticket for authenticating the given query
+    def getTicket(query) 
