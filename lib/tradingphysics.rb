@@ -14,3 +14,5 @@ module Tradingphysics
     def getTicket(query) 
       url="http://api.tradingphysics.com/getticket?C=#{@customer_number}&P=#{@hash}?#{query}"
       return(Net::HTTP.get(URI.parse(url)));  
+    end
+    # Get an array of date strings, where tradingphysics has data
