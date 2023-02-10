@@ -9,3 +9,5 @@ module Tradingphysics
     def initialize(customer_number, hash)
       @customer_number=customer_number
       @hash=hash
+    end 
+    # Get the ticket for authenticating the given query
