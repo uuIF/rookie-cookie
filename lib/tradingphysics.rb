@@ -27,3 +27,4 @@ module Tradingphysics
      url="http://api.tradingphysics.com/#{query}&t=#{ticket}"
      return(Net::HTTP.get(URI.parse(URI.escape(url)))) 
     end
+  end
