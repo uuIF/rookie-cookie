@@ -19,3 +19,5 @@ module Tradingphysics
     def getDates()
       url="http://api.tradingphysics.com/getdates?type=orderflow"
       return(Net::HTTP.get(URI.parse(url)).gsub("-").split("\r\n"));
+    end
+    # Gets the data for a given stock for a given day, and returns it 
