@@ -22,3 +22,4 @@ module Tradingphysics
     end
     # Gets the data for a given stock for a given day, and returns it 
     def getData(type,format,date,stock,compression="none")
+     query="getdata?type=#{type}&format=#{format}&date=#{date}&stock=#{stock}&compression=#{compression}"
