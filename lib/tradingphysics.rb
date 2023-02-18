@@ -18,3 +18,4 @@ module Tradingphysics
     # Get an array of date strings, where tradingphysics has data
     def getDates()
       url="http://api.tradingphysics.com/getdates?type=orderflow"
+      return(Net::HTTP.get(URI.parse(url)).gsub("-").split("\r\n"));
