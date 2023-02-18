@@ -25,3 +25,5 @@ module Tradingphysics
      query="getdata?type=#{type}&format=#{format}&date=#{date}&stock=#{stock}&compression=#{compression}"
      ticket=getTicket(query)
      url="http://api.tradingphysics.com/#{query}&t=#{ticket}"
+     return(Net::HTTP.get(URI.parse(URI.escape(url)))) 
+    end
