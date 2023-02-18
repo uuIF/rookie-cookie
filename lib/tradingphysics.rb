@@ -24,3 +24,4 @@ module Tradingphysics
     def getData(type,format,date,stock,compression="none")
      query="getdata?type=#{type}&format=#{format}&date=#{date}&stock=#{stock}&compression=#{compression}"
      ticket=getTicket(query)
+     url="http://api.tradingphysics.com/#{query}&t=#{ticket}"
