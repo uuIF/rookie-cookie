@@ -17,3 +17,4 @@ module Tradingphysics
     end
     # Get an array of date strings, where tradingphysics has data
     def getDates()
+      url="http://api.tradingphysics.com/getdates?type=orderflow"
