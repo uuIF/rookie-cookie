@@ -28,3 +28,4 @@ module Tradingphysics
      return(Net::HTTP.get(URI.parse(URI.escape(url)))) 
     end
   end
+end
