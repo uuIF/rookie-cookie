@@ -8,3 +8,5 @@ Gem::Specification.new do |gem|
   gem.description   = %q{Access the trading physics api for stock information}
   gem.summary       = %q{Trading physics api}
   gem.homepage      = ""
+
+  gem.files         = `git ls-files`.split($\)
